@@ -1,0 +1,56 @@
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.screen {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 70px;
+	width: 315px;
+	font-size: 30px;
+	color: rgb(84, 84, 84);
+	background-color: rgb(213, 225, 228);
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-bottom: 7px;
+	border: 2px ridge gray ;
+	border-radius: 10px;
+}
+
+.main {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	height: 70px;
+	width: 70px;
+	margin: 5px;
+	font-size: 22px;
+	background-color: rgb(255, 251, 230);
+	border-radius: 17px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+button:hover {
+	background-color: rgb(255, 251, 220);
+}
+
+/* .bttons { */
+/* 	border: 31px thick red; */
+/* 	background-color: white; */
+/* } */
+
+button.delete {
+	width: 155px;
+}
+
+
